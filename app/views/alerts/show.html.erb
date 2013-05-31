@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Dh rx:</b>
+  <%= @alert.dh_rx %>
+</p>
+
+<p>
+  <b>Street:</b>
+  <%= @alert.street %>
+</p>
+
+<p>
+  <b>Space:</b>
+  <%= @alert.space %>
+</p>
+
+<p>
+  <b>Plaque:</b>
+  <%= @alert.plaque %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @alert.description %>
+</p>
+
+<p>
+  <b>Dh ins:</b>
+  <%= @alert.dh_ins %>
+</p>
+
+<p>
+  <b>Cod infraction:</b>
+  <%= @alert.cod_infraction %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%= @alert.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%= @alert.longitude %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @alert.status %>
+</p>
+
+
+<%= link_to 'Edit', edit_alert_path(@alert) %> |
+<%= link_to 'Back', alerts_path %>

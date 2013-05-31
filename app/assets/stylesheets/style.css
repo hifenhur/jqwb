@@ -1,0 +1,9 @@
+.login-div {
+    background: none repeat scroll 0 0 black;
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+    height: 351px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 225px;
+}
