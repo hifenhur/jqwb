@@ -1,6 +1,7 @@
 <%= javascript_include_tag "application" %>
-<%= stylesheet_link_tag "application", :media => "all" %>
-<%= gmaps4rails(@json) %>
+
+<%= gmaps("markers" => {"data" => @json},
+     "map_options" => { "zoom" => 1, "auto_adjust" => true, "center_latitude" => @alert.latitude, "center_longitude" => @alert.longitude}) %> 
 <%= yield :scripts %>
 <script type="text/javascript">
 	Gmaps.loadMaps();

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  monitor: 
+  status: false
+  descricao: MyText
+
+two:
+  monitor: 
+  status: false
+  descricao: MyText
