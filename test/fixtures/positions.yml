@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  latitude: 
+  longitude: 
+  dh_ins: 2013-06-03
+
+two:
+  latitude: 
+  longitude: 
+  dh_ins: 2013-06-03

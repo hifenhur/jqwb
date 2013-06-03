@@ -1,0 +1,32 @@
+<a class="btn todas-posicoes-btn" href="mapa/usuarios">Ver Todas As Posições</a><br>
+<table class="table table-hover table-bordered">
+  <tr>
+    <th>Ver no Mapa</th>
+    <th>Matricula</th>
+    <th>Nome</th>
+    <th>Ultima Posição</th>
+    
+  </tr>
+
+<% @usuarios.each do |usuario| %>
+  <tr>
+    <td><a data-target="#myModal" role="button" class="btn" data-toggle="modal" data-remote="usuarios/map/<%=usuario.id%>">ver localização</a></td>
+    <td><%= usuario.matricula %></td>
+    <td><%= usuario.name %></td>
+    <td><%= usuario.last_position %></td>
+  </tr>
+<% end %>
+</table>
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Mapa</h3>
+  </div>
+  <div class="modal-body">
+    <p>Carregando...</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>

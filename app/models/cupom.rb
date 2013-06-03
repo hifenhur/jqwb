@@ -1,11 +1,11 @@
 class Cupom < ActiveRecord::Base
-  self.table_name = "pdv"
-  attr_accessible :descricao, :monitor_id, :status
-  belongs_to :munitor, class_name: 'Munitor'
-
-  def monitor
-  	Munitor.where("id_monitor = #{self.monitor_id} ")
-  end
-
   
+  attr_accessible :descricao, :status
+
+  #nome da tabela
+  self.table_name = "pdv"
+
+  #associcoes
+  belongs_to :monitor, class_name: 'Munitor', :foreign_key => "monitor_id"
+
 end

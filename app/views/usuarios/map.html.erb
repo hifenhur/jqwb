@@ -1,0 +1,8 @@
+<%= javascript_include_tag "application" %>
+
+<%= gmaps("markers" => {"data" => @json},
+     "map_options" => { "zoom" => 1, "auto_adjust" => true, "center_latitude" => @position.latitude, "center_longitude" => @position.longitude}) %> 
+<%= yield :scripts %>
+<script type="text/javascript">
+	Gmaps.loadMaps();
+</script>

@@ -5,6 +5,7 @@ class AlertsController < ApplicationController
   # GET /alerts.json
   def index
     @alerts = Alert.all
+    
 
     respond_to do |format|
       format.html # index.html.erb

@@ -1,11 +1,16 @@
 Jqrwb::Application.routes.draw do
+  get "maps/show"
+
   get 'home/index'
   root to: 'home#index'
   devise_for :users
 
   resources :alerts
+  resources :usuarios
 
   match 'alerts/map/:id' => 'alerts#map'
+  match 'usuarios/map/:id' => 'usuarios#map'
+  match 'mapa/usuarios' => 'usuarios#all_map'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

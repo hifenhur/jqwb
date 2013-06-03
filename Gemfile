@@ -28,6 +28,7 @@ gem "twitter-bootstrap-rails"
 gem 'warbler'
 gem 'geocoder'
 gem 'gmaps4rails'
+gem 'bullet', group: :development
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
