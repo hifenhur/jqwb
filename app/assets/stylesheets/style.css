@@ -10,3 +10,10 @@
 .container.body-wraper{
 	margin-top: 40px;
 }
+
+body .modal {
+    /* new custom width */
+    width: auto !important;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+    margin-left: -400px;
+}

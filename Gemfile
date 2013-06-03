@@ -26,6 +26,8 @@ gem 'commands'
 gem 'devise'
 gem "twitter-bootstrap-rails"
 gem 'warbler'
+gem 'geocoder'
+gem 'gmaps4rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -34,7 +36,7 @@ gem 'warbler'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+#gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'

@@ -5,6 +5,8 @@ Jqrwb::Application.routes.draw do
 
   resources :alerts
 
+  match 'alerts/map/:id' => 'alerts#map'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

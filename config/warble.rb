@@ -49,7 +49,7 @@ Warbler::Config.new do |config|
   # so that they can be packaged in the archive.
   # For Rails applications, the Rails gems are included by default
   # unless the vendor/rails directory is present.
-  config.gems += ["activerecord-jdbcmysql-adapter", "jruby-openssl", 'rails','activerecord-jdbcpostgresql-adapter','jruby-openssl','sass-rails''coffee-rails''therubyrhino''uglifier''jquery-rails''commands''devise',"twitter-bootstrap-rails"]
+  config.gems += ["activerecord-jdbcmysql-adapter", "jruby-openssl", 'rails','activerecord-jdbcpostgresql-adapter','jruby-openssl','sass-rails''coffee-rails''therubyrhino''uglifier''jquery-rails''commands''devise',"twitter-bootstrap-rails","geocoder"]
   # config.gems << "tzinfo"
 
   # Uncomment this if you don't want to package rails gem.

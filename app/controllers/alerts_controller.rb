@@ -1,5 +1,6 @@
 class AlertsController < ApplicationController
   before_filter :authenticate_user!
+  layout false, :only => :map
   # GET /alerts
   # GET /alerts.json
   def index
@@ -81,4 +82,15 @@ class AlertsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def map
+    @alert = Alert.find(params[:id])
+    @json = @alert.to_gmaps4rails
+    
+    respond_to do |format|
+      format.html # map.html.erb
+      format.js # map.js
+    end
+  end
+  
 end

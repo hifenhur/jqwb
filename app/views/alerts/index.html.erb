@@ -2,12 +2,12 @@
 
 <table class="table table-hover table-bordered">
   <tr>
-    <th>Data do Registro</th>
-    
+    <th>Ver no Mapa</th>
+    <th>Inserido</th>
     <th>Espaço</th>
     <th>Placa</th>
     <th>Descrição</th>
-    <th>Data da Inserão</th>
+    <th>Processado</th>
     <th>Cod. Infração</th>
     <th>Latitude</th>
     <th>Longitude</th>
@@ -16,11 +16,12 @@
 
 <% @alerts.each do |alert| %>
   <tr>
-    <td><%= alert.dh_rx %></td>
+    <td><a data-target="#myModal" role="button" class="btn" data-toggle="modal" data-remote="alerts/map/<%= alert.id%>">ver localização</a></td>
+    <td><%= alert.dh_ins %></td>
     <td><%= alert.space %></td>
     <td><%= alert.plaque %></td>
     <td><%= alert.description %></td>
-    <td><%= alert.dh_ins %></td>
+    <td><%= alert.dh_rx %></td>
     <td><%= alert.cod_infraction %></td>
     <td><%= alert.latitude %></td>
     <td><%= alert.longitude %></td>
@@ -31,3 +32,15 @@
 
 <br />
 
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Mapa</h3>
+  </div>
+  <div class="modal-body">
+    <p>Carregando...</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>

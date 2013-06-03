@@ -1,0 +1,7 @@
+<%= javascript_include_tag "application" %>
+<%= stylesheet_link_tag "application", :media => "all" %>
+<%= gmaps4rails(@json) %>
+<%= yield :scripts %>
+<script type="text/javascript">
+	Gmaps.loadMaps();
+</script>
