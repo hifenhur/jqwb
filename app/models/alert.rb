@@ -8,4 +8,13 @@ class Alert < ActiveRecord::Base
 	self.table_name = "alert"
 	#associacoes
 	belongs_to :munitor, :class_name => "Munitor"
+
+	def gmaps4rails_marker_picture
+	 {
+	  "picture" => "/assets/alert.png",          # string,  mandatory
+	   "width" =>  32,          # integer, mandatory
+	   "height" => 32          # integer, mandatory
+	 }
+	end
+
 end
