@@ -1,10 +1,10 @@
+<h1>Usuários</h1>
 <a class="btn todas-posicoes-btn" href="mapa/usuarios">Ultimas Posições</a><br>
 <table class="table table-hover table-bordered">
   <tr>
     <th>Ver no Mapa</th>
     <th>Matricula</th>
     <th>Nome</th>
-    <th>Ultima Posição</th>
     
   </tr>
 
@@ -13,10 +13,10 @@
     <td><a data-target="#myModal" role="button" class="btn" data-toggle="modal" data-remote="usuarios/map/<%=usuario.id%>">ultima localização</a></td>
     <td><%= usuario.matricula %></td>
     <td><%= usuario.name %></td>
-    <td><%= usuario.last_position %></td>
   </tr>
 <% end %>
 </table>
+<%= will_paginate @usuarios%>
 
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">

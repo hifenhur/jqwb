@@ -4,7 +4,7 @@ class AlertsController < ApplicationController
   # GET /alerts
   # GET /alerts.json
   def index
-    @alerts = Alert.all
+    @alerts = Alert.order('id_alert DESC').paginate(:page => params[:page], :per_page => 10)
     
 
     respond_to do |format|

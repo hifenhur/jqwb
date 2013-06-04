@@ -4,9 +4,9 @@ Jqrwb::Application.routes.draw do
   get 'home/index'
   root to: 'home#index'
   devise_for :users
-
   resources :alerts
   resources :usuarios
+  match 'estoque' => 'estoques#index'
 
   match 'alerts/map/:id' => 'alerts#map'
   match 'usuarios/map/:id' => 'usuarios#map'

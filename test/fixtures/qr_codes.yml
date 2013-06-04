@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dh_rx: MyString
+  plaque: MyString
+  description: MyString
+  cod_infraction: MyString
+  latitude: MyString
+  longitude: MyString
+  status: MyString
+  space: MyString
+  dh_ins: MyString
+
+two:
+  dh_rx: MyString
+  plaque: MyString
+  description: MyString
+  cod_infraction: MyString
+  latitude: MyString
+  longitude: MyString
+  status: MyString
+  space: MyString
+  dh_ins: MyString

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dh_ins: MyString
+  qrcode_band: MyString
+
+two:
+  dh_ins: MyString
+  qrcode_band: MyString

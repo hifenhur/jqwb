@@ -3,15 +3,15 @@
 
 en:
   helpers:
-    actions: "Actions"
+    actions: "Ações"
     links:
-      back: "Back"
-      cancel: "Cancel"
-      confirm: "Are you sure?"
-      destroy: "Delete"
-      new: "New"
+      back: "Voltar"
+      cancel: "Cancelar"
+      confirm: "Você tem certeza?"
+      destroy: "Deletar"
+      new: "Novo"
     titles:
-      edit: "Edit"
-      save: "Save"
-      new: "New"
-      delete: "Delete"
+      edit: "Editar"
+      save: "Salvar"
+      new: "Novo"
+      delete: "Deletar"
