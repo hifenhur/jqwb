@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2634478470">
+    <data-source source="LOCAL" name="Rails jqrwb: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="bcb0ec86-c91b-4778-b9fb-b129819c77fa">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:jqrwb_test</jdbc-url>
+      <user-name>jqrwb</user-name>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails jqrwb: production" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC3 (build 901)" uuid="d6807d04-fd29-4426-a552-8cb5a57d979c">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://200.98.128.101/qrcode</jdbc-url>
+      <user-name>skia</user-name>
+      <user-password>dfd9dfc1dfc3dfcbdf9bdf98df99</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails jqrwb: development" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC3 (build 901)" uuid="6fbcbd87-fdf7-4e93-a2c7-fa70aae7dca7">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://200.98.128.101/qrcode</jdbc-url>
+      <user-name>skia</user-name>
+      <user-password>dfd9dfc1dfc3dfcbdf9bdf98df99</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

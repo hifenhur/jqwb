@@ -1,36 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be8f0389-77f0-48e8-9052-f23312aea511" name="Default" comment="">
+    <list default="true" id="8f326d8b-0187-41b4-9422-005d487ea159" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="DELETED" beforePath="C:\Sites\jqrwb\app\assets\stylesheets\flat-ui.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\jqrwb\app\assets\stylesheets\maps.css.scss" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\jqrwb\app\views\alerts\_form.html.erb" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\jqrwb\app\views\alerts\edit.html.erb" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\jqrwb\app\views\alerts\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-4f6ccc4fb04296193d803c953b9d35ef.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-4f6ccc4fb04296193d803c953b9d35ef.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-6e23e36ebad49209bdc3cff8a4d42d03.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-6e23e36ebad49209bdc3cff8a4d42d03.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-80b02e5ceef13dc452d8614e6cf4b1bd.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-80b02e5ceef13dc452d8614e6cf4b1bd.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-8c0ae37df15e42b840566886bba81fc5.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-8c0ae37df15e42b840566886bba81fc5.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-b5ce0093b419c1ec856002ad1d6313e7.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-b5ce0093b419c1ec856002ad1d6313e7.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-bf4348ea02b103973f6c9581f1eae0cb.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-bf4348ea02b103973f6c9581f1eae0cb.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-cf8fe68ab5cc06d0d7d9c3a138e8522b.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-cf8fe68ab5cc06d0d7d9c3a138e8522b.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-f9d2a1ae817035ac51243e6ce3dba18a.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-f9d2a1ae817035ac51243e6ce3dba18a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\fontawesome-webfont-635909f146e208b3509acdf3b154bf0d.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\fontawesome-webfont-6a4e273908b7e43d9e479d38b8ae5957.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\fontawesome-webfont-a0fbd98b232e7e1ef9cdaad813b26eb3.woff" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/assets/fontawesome-webfont.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jqrwb.war" afterPath="$PROJECT_DIR$/jqrwb.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/alert.rb" afterPath="$PROJECT_DIR$/app/models/alert.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/agent.rb" afterPath="$PROJECT_DIR$/app/models/agent.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/alerts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/alerts_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/estoque_log.rb" afterPath="$PROJECT_DIR$/app/models/estoque_log.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/estoques_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/estoques_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/alerts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/alerts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/estoques/index.html.erb" afterPath="$PROJECT_DIR$/app/views/estoques/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jqrwb.iml" afterPath="$PROJECT_DIR$/.idea/jqrwb.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/usuarios/map.html.erb" afterPath="$PROJECT_DIR$/app/views/usuarios/map.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/qrcode.rb" afterPath="$PROJECT_DIR$/app/models/qrcode.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/usuario.rb" afterPath="$PROJECT_DIR$/app/models/usuario.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/usuarios_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/usuarios_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/munitor.rb" afterPath="$PROJECT_DIR$/app/models/munitor.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/warble.rb" afterPath="$PROJECT_DIR$/config/warble.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jqrwb.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="be8f0389-77f0-48e8-9052-f23312aea511" time="1370437858015" ignored="false" />
-    <file path="/index.html.erb" changelist="be8f0389-77f0-48e8-9052-f23312aea511" time="1370440341750" ignored="false" />
-    <file path="/Ruby Console" changelist="be8f0389-77f0-48e8-9052-f23312aea511" time="1370438559156" ignored="false" />
-    <file path="/Gemfile" changelist="be8f0389-77f0-48e8-9052-f23312aea511" time="1370438833437" ignored="false" />
+    <file path="/Dummy.txt" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370465279128" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,100 +68,6 @@
   <component name="FavoritesManager">
     <favorites_list name="jqrwb" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="bootstrap.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/alerts/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="99" selection-start="346" selection-end="346" vertical-scroll-proportion="0.16037735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alert.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estoque_log.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/estoque_log.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/estoques/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.9615384">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agent.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/agent.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="12" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="munitor.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/munitor.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="position.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/position.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/alerts/map.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="312" selection-end="312" vertical-scroll-proportion="-4.576923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="29" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -153,15 +79,6 @@
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/agent.rb" />
-        <option value="$PROJECT_DIR$/app/views/alerts/index.html.erb" />
-      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -196,6 +113,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -205,183 +123,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="estoques" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alerts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqrwb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Spork DRb.Cucumber: Spork DRb server">
-    <configuration default="false" name="IRB console" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
-      <module name="jqrwb" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+  <component name="RunManager" selected="Rails.Development: jqrwb">
+    <configuration default="true" type="CommandRunConfigurationType" factoryName="Gem Command">
+      <module name="" />
+      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:/jruby-1.7.4/bin/jirb" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--prompt simple" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Rails console: jqrwb" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
-      <module name="jqrwb" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/script/rails" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console development" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Cucumber: Spork DRb server" type="SporkRunConfigurationType" factoryName="Spork DRb" temporary="true">
-      <module name="jqrwb" />
-      <SPORK_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <SPORK_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <SPORK_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <SPORK_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <SPORK_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <SPORK_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:/jruby-1.7.4/bin/spork" />
-      <SPORK_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <SPORK_RUN_CONFIG NAME="TEST_FRAMEWORK_ARGS" VALUE="CUCUMBER" />
-      <SPORK_RUN_CONFIG NAME="SPORK_RUN_CONFIG" VALUE="CUCUMBER" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -426,39 +194,74 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="IrbRunConfigurationType" factoryName="IRB console">
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="SporkRunConfigurationType" factoryName="Spork DRb">
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="" />
-      <SPORK_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <SPORK_RUN_CONFIG NAME="WORK DIR" VALUE="" />
-      <SPORK_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <SPORK_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <SPORK_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <SPORK_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
-      <SPORK_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <SPORK_RUN_CONFIG NAME="TEST_FRAMEWORK_ARGS" VALUE="RSPEC" />
-      <SPORK_RUN_CONFIG NAME="SPORK_RUN_CONFIG" VALUE="RSPEC" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -547,22 +350,12 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-    <list size="7">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Rake.test" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: jqrwb" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: jqrwb" />
-      <item index="4" class="java.lang.String" itemvalue="IRB console.IRB console" />
-      <item index="5" class="java.lang.String" itemvalue="IRB console.Rails console: jqrwb" />
-      <item index="6" class="java.lang.String" itemvalue="Spork DRb.Cucumber: Spork DRb server" />
     </list>
-    <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Spork DRb.Cucumber: Spork DRb server" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: jqrwb" />
-        <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -584,30 +377,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="be8f0389-77f0-48e8-9052-f23312aea511" name="Default" comment="" />
-      <created>1370437855359</created>
-      <updated>1370437855359</updated>
+      <changelist id="8f326d8b-0187-41b4-9422-005d487ea159" name="Default" comment="" />
+      <created>1370465108003</created>
+      <updated>1370465108003</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1368" height="746" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1368" height="746" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24961948" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.67045456" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24961948" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -673,94 +466,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/maps.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="29" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/position.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/estoque_log.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/agent.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/estoques/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/alerts/map.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="312" selection-end="312" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/munitor.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/alerts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="99" selection-start="346" selection-end="346" vertical-scroll-proportion="0.16037735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
 

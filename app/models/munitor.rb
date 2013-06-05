@@ -11,4 +11,7 @@ class Munitor < ActiveRecord::Base
   has_many :cupons, class_name: 'Cupom', :foreign_key => "id_monitor"
   has_many :alerts, :foreign_key => "id_monitor"
 
+  def to_s
+    "#{self.name}"
+  end
 end

@@ -34,6 +34,8 @@ gem 'geocoder'
 gem 'gmaps4rails'
 gem 'will_paginate'
 gem 'will_paginate-bootstrap'
+gem 'warbler'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
