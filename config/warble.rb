@@ -49,7 +49,13 @@ Warbler::Config.new do |config|
   # so that they can be packaged in the archive.
   # For Rails applications, the Rails gems are included by default
   # unless the vendor/rails directory is present.
-  config.gems += ["activerecord-jdbcmysql-adapter", "jruby-openssl", 'rails','activerecord-jdbcpostgresql-adapter','jruby-openssl','sass-rails''coffee-rails''therubyrhino''uglifier''jquery-rails''commands''devise',"twitter-bootstrap-rails","geocoder"]
+  config.gems += ["activerecord-jdbcmysql-adapter", "jruby-openssl", 'rails', 'activerecord-jdbcpostgresql-adapter', 'jruby-openssl', 'sass-rails' 'coffee-rails' 'therubyrhino' 'uglifier' 'jquery-rails' 'commands' 'devise', "twitter-bootstrap-rails", "geocoder"]
+  config.excludes = FileList[]
+  config.includes = FileList[".gitignore", "config.ru", "Gemfile", "Gemfile.lock", "Rakefile", "README.rdoc"]
+  config.features = %w(precompiled gemjar)
+  config.dirs = %w(app config lib log vendor tmp db doc public script)
+  config.war_name = "jqrwb"
+  config.webinf_files = FileList[]
   # config.gems << "tzinfo"
 
   # Uncomment this if you don't want to package rails gem.

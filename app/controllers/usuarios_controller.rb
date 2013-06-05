@@ -11,7 +11,11 @@ class UsuariosController < ApplicationController
 
 	def map
 	    @position = Usuario.find(params[:id]).last_position
-	    @json = @position.to_gmaps4rails
+	    @json = if @position
+	    	@position.to_gmaps4rails
+	    else
+	    	false
+	    end
 	    
 	    respond_to do |format|
 	      format.html # map.html.erb

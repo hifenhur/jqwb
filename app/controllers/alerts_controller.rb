@@ -4,9 +4,24 @@ class AlertsController < ApplicationController
   # GET /alerts
   # GET /alerts.json
   def index
-    @alerts = Alert.order('id_alert DESC').paginate(:page => params[:page], :per_page => 10)
+    @agentes = Agent.all
+    @monitores = Munitor.where("type = 'M'")
     
+    if params[:query]
+      query = params[:query]
 
+      @alerts = if query[:monitor].empty?
+         Agent.find(query[:agent]).alerts.paginate(:page => params[:page], :per_page => 10)
+      elsif query[:agent].empty?
+         Munitor.find(query[:monitor]).alerts.paginate(:page => params[:page], :per_page => 10)
+      elsif !query[:agent].empty? && !query[:monitor].empty?
+         Alert.where("id_monitor = '#{query[:monitor]}' and id_agent = '#{query[:agent]}'").paginate(:page => params[:page], :per_page => 10)
+      end
+
+    else
+      @alerts = Alert.order('id_alert DESC').paginate(:page => params[:page], :per_page => 10)  
+    end
+    
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @alerts }

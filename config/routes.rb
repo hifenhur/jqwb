@@ -6,6 +6,7 @@ Jqrwb::Application.routes.draw do
   devise_for :users
   resources :alerts
   resources :usuarios
+  resources :qrcodes
   match 'estoque' => 'estoques#index'
 
   match 'alerts/map/:id' => 'alerts#map'

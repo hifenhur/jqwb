@@ -1,30 +1,34 @@
 <h1>Alertas</h1>
-
+<%= form_tag '/alerts', method: 'get' do%>
+    <%= label 'query','agent', "Agente" %>
+    <%= select 'query','agent', @agentes.collect{|a| [a.nome, a.id]},{:include_blank => true} %>
+    <%= label 'query','monitor', "Monitor" %>
+    <%= select 'query','monitor', @monitores.collect{|m| [m.name, m.id]}, {:include_blank => true} %>
+    <%= button_tag 'Pesquisar', class: 'btn' %>
+<% end %>
+<% if params[:query] %>
+  
+<% end %>
 <table class="table table-hover table-bordered">
   <tr>
     <th>Ver no Mapa</th>
     <th>Inserido</th>
-    <th>Espaço</th>
     <th>Placa</th>
     <th>Descrição</th>
     <th>Processado</th>
     <th>Cod. Infração</th>
-    <th>Latitude</th>
-    <th>Longitude</th>
     <th>Status</th>
   </tr>
+
 
 <% @alerts.each do |alert| %>
   <tr>
     <td><a data-target="#myModal" role="button" class="btn" data-toggle="modal" data-remote="alerts/map/<%= alert.id%>">ver localização</a></td>
     <td><%= alert.dh_ins %></td>
-    <td><%= alert.space %></td>
     <td><%= alert.plaque %></td>
     <td><%= alert.description %></td>
     <td><%= alert.dh_rx %></td>
     <td><%= alert.cod_infraction %></td>
-    <td><%= alert.latitude %></td>
-    <td><%= alert.longitude %></td>
     <td><%= alert.status %></td>
   </tr>
 <% end %>

@@ -1,8 +1,12 @@
-<%= javascript_include_tag "application" %>
+<%if @json%>
+	<%= javascript_include_tag "application" %>
 
-<%= gmaps("markers" => {"data" => @json},
-     "map_options" => { "zoom" => 1, "auto_adjust" => true, "center_latitude" => @position.latitude, "center_longitude" => @position.longitude}) %> 
-<%= yield :scripts %>
-<script type="text/javascript">
-	Gmaps.loadMaps();
-</script>
+	<%= gmaps("markers" => {"data" => @json},
+	     "map_options" => { "zoom" => 1, "auto_adjust" => true, "center_latitude" => @position.latitude, "center_longitude" => @position.longitude}) %> 
+	<%= yield :scripts %>
+	<script type="text/javascript">
+		Gmaps.loadMaps();
+	</script>
+<%else%>
+	<h2>não existe dado de posição para esse usuário</h2>
+<%end%>
