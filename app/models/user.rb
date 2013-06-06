@@ -11,8 +11,8 @@ class User < ActiveRecord::Base
 
   has_and_belongs_to_many :roles
 
-  def is_admin?
-    User.first.roles.include?(Role.find(2))
+  def admin?
+    self.roles.include?(Role.where(name: 'admin').first)
   end
   
 end
