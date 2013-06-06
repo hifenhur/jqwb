@@ -37,20 +37,18 @@
     <orderEntry type="library" scope="PROVIDED" name="devise (v2.2.4, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, jruby-1.7.4-p392) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="geocoder (v1.1.8, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="gmaps4rails (v1.5.6, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jdbc-postgres (v9.2.1002.1, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.0.0, jruby-1.7.4-p392) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jruby-jars (v1.7.4, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jruby-openssl (v0.8.8, jruby-1.7.4-p392) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jruby-rack (v1.1.13.2, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.0, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.23, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.6, jruby-1.7.4-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="newrelic_rpm (v3.6.3.106, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.4.0, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.5, jruby-1.7.4-p392) [gem]" level="application" />
@@ -61,7 +59,6 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v3.2.13, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.0.4, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, jruby-1.7.4-p392) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v0.9.9, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, jruby-1.7.4-p392) [gem]" level="application" />
@@ -74,10 +71,8 @@
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.37, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.1, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uniform_notifier (v1.2.0, jruby-1.7.4-p392) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="warbler (v1.3.8, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.1, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.4, jruby-1.7.4-p392) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="will_paginate-bootstrap (v0.2.2, jruby-1.7.4-p392) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

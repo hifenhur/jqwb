@@ -30,11 +30,9 @@ end
 gem 'jquery-rails'
 gem 'devise'
 gem "twitter-bootstrap-rails"
-gem 'geocoder'
 gem 'gmaps4rails'
 gem 'will_paginate'
-gem 'will_paginate-bootstrap'
-gem 'warbler'
+gem 'newrelic_rpm'
 
 
 # To use ActiveModel has_secure_password

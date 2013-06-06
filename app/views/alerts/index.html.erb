@@ -1,5 +1,5 @@
 <h1>Alertas</h1>
-<%= form_tag '/alerts', method: 'get' do%>
+<%= form_tag alerts_path, method: 'get' do%>
     <%= label 'query','agent', "Agente" %>
     <%= select 'query','agent', @agentes.collect{|a| [a.nome, a.id]},{:include_blank => true} %>
     <%= label 'query','monitor', "Monitor" %>
