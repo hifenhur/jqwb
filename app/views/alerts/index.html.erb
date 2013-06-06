@@ -1,44 +1,43 @@
 <h1>Alertas</h1>
-<%= form_tag alerts_path, method: 'get' do%>
-    <%= label 'query','agent', "Agente" %>
-    <%= select 'query','agent', @agentes.collect{|a| [a.nome, a.id]},{:include_blank => true} %>
-    <%= label 'query','monitor', "Monitor" %>
-    <%= select 'query','monitor', @monitores.collect{|m| [m.name, m.id]}, {:include_blank => true} %>
-    <input type="submit" class="btn" value="Pesquisar"/>
+<%= search_form_for @search, url: alerts_path do |f| %>
+    <div class="field">
+      <%= f.label :agent_nome_cont, "Nome do Usuario" %>
+      <%= f.select :agent_nome_cont, @agentes %>
+      <%= f.label :monitor_name_cont, "Nome do Usuario" %>
+      <%= f.select :monitor_name_cont, @monitores %>
+    </div>
+    <div class="actions"><%= f.submit "Pesquisar", class: 'btn' %></div>
+<% end %>
 
-<% end %>
-<% if params[:query] %>
-  
-<% end %>
 <table class="table table-hover table-bordered">
   <tr>
     <th>Ver no Mapa</th>
-    <th>Inserido</th>
-    <th>Placa</th>
-    <th>Descrição</th>
-    <th>Processado</th>
-    <th>Infração</th>
-    <th>Status</th>
-    <th>Agente</th>
-    <th>Monitor</th>
+    <th><%= sort_link(@search, :dh_ins, "Inserido") %></th>
+    <th><%= sort_link(@search, :plaque, "Placa") %></th>
+    <th><%= sort_link(@search, :description, "Descrição") %></th>
+    <th><%= sort_link(@search, :dh_rx, "Processado") %></th>
+    <th><%= sort_link(@search, :infracao, "Infração") %></th>
+    <th><%= sort_link(@search, :status, "Status") %></th>
+    <th><%= sort_link(@search, :agent, "Agente") %></th>
+    <th><%= sort_link(@search, :monitor, "Monitor") %></th>
   </tr>
 
 
 <% @alerts.each do |alert| %>
   <tr>
     <td><a data-target="#myModal" role="button" class="btn" data-toggle="modal" data-remote="alerts/map/<%= alert.id%>">ver localização</a></td>
-    <td><%= alert.dh_ins %></td>
+    <td><%= l alert.dh_ins, format: :long if alert.dh_ins  %></td>
     <td><%= alert.plaque %></td>
     <td><%= alert.description %></td>
-    <td><%= alert.dh_rx %></td>
-    <td><%= alert.cod_infraction %></td>
+    <td><%= l alert.dh_rx, format: :long if alert.dh_rx  %></td>
+    <td><%= alert.infracao %></td>
     <td><%= alert.status %></td>
     <td><%= alert.agent %></td>
     <td><%= alert.monitor %></td>
   </tr>
 <% end %>
 </table>
-<%= will_paginate @alerts %>
+
 
 <br />
 

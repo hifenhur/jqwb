@@ -30,6 +30,7 @@
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bullet (v4.6.0, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.5, jruby-1.7.4-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="chronic (v0.9.1, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.2, jruby-1.7.4-p392) [gem]" level="application" />
@@ -50,6 +51,7 @@
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.6, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="newrelic_rpm (v3.6.3.106, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.4.0, jruby-1.7.4-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="polyamorous (v0.5.0, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.5, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, jruby-1.7.4-p392) [gem]" level="application" />
@@ -58,6 +60,9 @@
     <orderEntry type="library" scope="PROVIDED" name="rails (v3.2.13, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v3.2.13, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.0.4, jruby-1.7.4-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ransack (v0.7.2, jruby-1.7.4-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ransack_chronic (v1.1.0, jruby-1.7.4-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ransack_ui (v1.1.0, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, jruby-1.7.4-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, jruby-1.7.4-p392) [gem]" level="application" />

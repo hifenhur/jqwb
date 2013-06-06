@@ -33,6 +33,8 @@ gem "twitter-bootstrap-rails"
 gem 'gmaps4rails'
 gem 'will_paginate'
 gem 'newrelic_rpm'
+gem 'ransack'
+gem 'ransack_ui'
 
 
 # To use ActiveModel has_secure_password

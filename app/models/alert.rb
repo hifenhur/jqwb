@@ -9,6 +9,7 @@ class Alert < ActiveRecord::Base
 	#associacoes
 	belongs_to :monitor, class_name: "Munitor",foreign_key: 'id_monitor'
 	belongs_to :agent, class_name: 'Agent', foreign_key: 'id_agent'
+  belongs_to :infracao, class_name: 'Infracao', :foreign_key => 'cod_infraction'
 
 	def gmaps4rails_marker_picture
 	 {

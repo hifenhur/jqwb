@@ -5,31 +5,33 @@
 <% options << [''] %>
 <% @usuarios.collect{|u| options << [u.name, u.id]}%>
 
-  <form action='<%= estoque_path%>' method='get'>
-  <%= select('query','usuario', options , {:prompt => 'Logs por Usuario'} , :onchange => "
-  this.form.submit();") %>
-  </form>
+<%= search_form_for @search, url: estoque_path do |f| %>
+    <div class="field">
+      <%= f.label :usuario_name_cont, "Nome do Usuario" %>
+      <%= f.text_field :usuario_name_cont %>
 
-<% if  params[:query] && !params[:query][:usuario].empty?%>
-<h3><%= "Resultados para o Usuario: '#{Usuario.find(params[:query][:usuario])}'"%></h3>  
+    </div>
+    <div class="actions"><%= f.submit "Pesquisar", class: 'btn' %></div>
 <% end %>
+
+
 
 <table class="table table-hover table-bordered">
   <tr>
-    <th>Qrcode</th>
-    <th>Inserção</th>
-    <th>Usuario</th>
+    <th><%= sort_link(@search, :qrcode, "QrCode") %></th>
+    <th><%= sort_link(@search, :dh_ins, "Inserção") %></th>
+    <th><%= sort_link(@search, :usuario_name, "Usuario") %></th>
   </tr>
 
   <% @logs.each do |log| %>
   <tr>
     <td><%= log.qrcode %></td>
-    <td><%= log.dh_ins %></td>
+    <td><%= l log.dh_ins, format: :long if log.dh_ins  %></td>
     <td><%= log.usuario %></td>
   </tr>
 <% end %>  
 </table>
-<%= will_paginate @logs %>
+
 
 <br />
 
