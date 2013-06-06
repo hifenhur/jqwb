@@ -49,7 +49,6 @@ Warbler::Config.new do |config|
   # so that they can be packaged in the archive.
   # For Rails applications, the Rails gems are included by default
   # unless the vendor/rails directory is present.
-    config.gems += ["activerecord-jdbcmysql-adapter", "jruby-openssl", 'rails','activerecord-jdbcpostgresql-adapter','jruby-openssl','sass-rails''coffee-rails''therubyrhino''uglifier''jquery-rails''commands''devise',"twitter-bootstrap-rails"]
 
   # config.gems << "tzinfo"
 
@@ -104,7 +103,7 @@ Warbler::Config.new do |config|
   # Files for WEB-INF directory (next to web.xml). This contains
   # web.xml by default. If there is an .erb-File it will be processed
   # with webxml-config. You may want to exclude this file via
-  # config.excludes.
+  # config.excludes. 9J8XTCM4
   # config.webinf_files += FileList["jboss-web.xml"]
 
   # Files to be included in the root of the webapp.  Note that files in public
