@@ -11,33 +11,36 @@
 
 <table class="table table-hover table-bordered">
   <tr>
-    <th>Ver no Mapa</th>
-    <th><%= sort_link(@search, :dh_ins, "Inserido") %></th>
+    <th>Mapa</th>
+    <th><%= sort_link(@search, :dh_ins, "Data do Alerta") %></th>
+    <th><%= sort_link(@search, :infracao, "Tipo de Infração") %></th>
     <th><%= sort_link(@search, :plaque, "Placa") %></th>
-    <th><%= sort_link(@search, :description, "Descrição") %></th>
-    <th><%= sort_link(@search, :dh_rx, "Processado") %></th>
-    <th><%= sort_link(@search, :infracao, "Infração") %></th>
-    <th><%= sort_link(@search, :status, "Status") %></th>
-    <th><%= sort_link(@search, :agent, "Agente") %></th>
+    <th><%= sort_link(@search, :description, "Observação") %></th>
     <th><%= sort_link(@search, :monitor, "Monitor") %></th>
+    <th><%= sort_link(@search, :agent, "Agente") %></th>
+    <th><%= sort_link(@search, :dh_rx, "Data de Atendimento") %></th>
+    <th><%= sort_link(@search, :status, "Status") %></th>
+
   </tr>
 
 
-<% @alerts.each do |alert| %>
-  <tr>
-    <td><a data-target="#myModal" role="button" class="btn" data-toggle="modal" data-remote="alerts/map/<%= alert.id%>">ver localização</a></td>
-    <td><%= l alert.dh_ins, format: :long if alert.dh_ins  %></td>
-    <td><%= alert.plaque %></td>
-    <td><%= alert.description %></td>
-    <td><%= l alert.dh_rx, format: :long if alert.dh_rx  %></td>
-    <td><%= alert.infracao %></td>
-    <td><%= alert.status %></td>
-    <td><%= alert.agent %></td>
-    <td><%= alert.monitor %></td>
-  </tr>
-<% end %>
+  <% @alerts.each do |alert| %>
+      <tr>
+        <td><a data-target="#myModal" role="button" class="btn" data-toggle="modal" data-remote="alerts/map/<%= alert.id%>"><%= image_tag('target.png', alt: 'Ver no Mapa', title: 'Ver no Mapa' ) %></a></td>
+        <td><%= l alert.dh_ins, format: :short if alert.dh_ins  %></td>
+        <td><%= alert.infracao %></td>
+        <td><%= alert.plaque %></td>
+        <td><%= alert.description %></td>
+        <td><%= alert.monitor %></td>
+        <td><%= alert.agent %></td>
+        <td><%= l alert.dh_rx, format: :short if alert.dh_rx  %></td>
+        <td><%= alert.status %></td>
+
+
+      </tr>
+  <% end %>
 </table>
-
+<%= will_paginate @alerts %>
 
 <br />
 

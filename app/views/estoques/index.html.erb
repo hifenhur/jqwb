@@ -26,12 +26,13 @@
   <% @logs.each do |log| %>
   <tr>
     <td><%= log.qrcode %></td>
-    <td><%= l log.dh_ins, format: :long if log.dh_ins  %></td>
+    <td><%= l log.dh_ins, format: :short if log.dh_ins  %></td>
     <td><%= log.usuario %></td>
   </tr>
 <% end %>  
 </table>
 
+<%= will_paginate @logs %>
 
 <br />
 

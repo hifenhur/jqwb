@@ -1,5 +1,6 @@
 class UsuariosController < ApplicationController
 	layout false, only: :map
+  authorize_resource
 	def index
 	  @usuarios = Usuario.order('name ASC').paginate(:page => params[:page], :per_page => 10)
 

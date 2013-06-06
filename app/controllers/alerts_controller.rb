@@ -1,6 +1,6 @@
 class AlertsController < ApplicationController
-  before_filter :authenticate_user!
   layout false, :only => :map
+
   # GET /alerts
   # GET /alerts.json
   def index
@@ -11,7 +11,7 @@ class AlertsController < ApplicationController
     @agentes << Agent.all
     @monitores << Munitor.where("type = 'M'")
     @search = Alert.includes(:agent, :monitor, :infracao).search(params[:q])
-    @alerts = @search.result
+    @alerts = @search.result.paginate(page: params[:page], per_page: 10)
     
     respond_to do |format|
       format.html # index.html.erb

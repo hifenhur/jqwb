@@ -17,7 +17,7 @@
     <data-source source="LOCAL" name="Rails jqrwb: production" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC3 (build 901)" uuid="d6807d04-fd29-4426-a552-8cb5a57d979c">
       <identifier-quote-string>&quot;</identifier-quote-string>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/qrcode</jdbc-url>
+      <jdbc-url>jdbc:postgresql://200.98.128.101/qrcode</jdbc-url>
       <user-name>skia</user-name>
       <user-password>dfd9dfc1dfc3dfcbdf9bdf98df99</user-password>
       <libraries>

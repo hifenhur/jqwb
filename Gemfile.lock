@@ -39,7 +39,7 @@ GEM
     builder (3.0.4)
     bullet (4.6.0)
       uniform_notifier
-    chronic (0.9.1)
+    cancan (1.6.10)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -106,11 +106,6 @@ GEM
       actionpack (~> 3.0)
       activerecord (~> 3.0)
       polyamorous (~> 0.5.0)
-    ransack_chronic (1.1.0)
-      chronic (>= 0.6.7)
-    ransack_ui (1.1.0)
-      ransack
-      ransack_chronic (>= 1.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
     sass (3.2.9)
@@ -152,6 +147,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-jdbcpostgresql-adapter
   bullet
+  cancan
   coffee-rails (~> 3.2.1)
   commands
   devise
@@ -161,7 +157,6 @@ DEPENDENCIES
   newrelic_rpm
   rails (= 3.2.13)
   ransack
-  ransack_ui
   sass-rails (~> 3.2.3)
   therubyrhino
   twitter-bootstrap-rails

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130531132405) do
+ActiveRecord::Schema.define(:version => 20130606180155) do
 
   create_table "agent", :primary_key => "id_agent", :force => true do |t|
     t.string  "nome",    :limit => 40
@@ -91,10 +91,22 @@ ActiveRecord::Schema.define(:version => 20130531132405) do
     t.string "status",     :limit => 1
   end
 
+  create_table "roles", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "roles_users", :id => false, :force => true do |t|
+    t.integer "role_id"
+    t.integer "user_id"
+  end
+
   create_table "stock_control_qrcode", :primary_key => "id_stock_control", :force => true do |t|
     t.integer  "id_qrcodes"
     t.datetime "dh_ins"
     t.integer  "qrcode_band", :limit => 8
+    t.integer  "id_user"
   end
 
   create_table "stretch", :primary_key => "id_stretch", :force => true do |t|
@@ -104,6 +116,15 @@ ActiveRecord::Schema.define(:version => 20130531132405) do
     t.integer "side_left_stop"
     t.integer "side_right_start"
     t.integer "side_right_stop"
+  end
+
+  create_table "trash", :id => false, :force => true do |t|
+    t.integer  "id_trash",                     :null => false
+    t.integer  "id_user"
+    t.string   "code",          :limit => nil
+    t.integer  "serial_number", :limit => 8
+    t.datetime "dt_ins"
+    t.string   "status",        :limit => 10
   end
 
   create_table "type_band", :primary_key => "id_type_band", :force => true do |t|

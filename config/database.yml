@@ -37,7 +37,7 @@ test:
   password:
 
 production:
-  host: localhost
+  host: 200.98.128.101
   adapter: postgresql
   encoding: unicode
   database: qrcode
