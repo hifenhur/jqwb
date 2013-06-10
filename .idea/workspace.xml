@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f326d8b-0187-41b4-9422-005d487ea159" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\app\assets\javascripts\maps.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\app\assets\stylesheets\flat-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\app\assets\stylesheets\maps.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\app\views\alerts\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\app\views\alerts\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\app\views\alerts\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\config\trinidad.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-4f6ccc4fb04296193d803c953b9d35ef.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-4f6ccc4fb04296193d803c953b9d35ef.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-6e23e36ebad49209bdc3cff8a4d42d03.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-6e23e36ebad49209bdc3cff8a4d42d03.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-80b02e5ceef13dc452d8614e6cf4b1bd.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-80b02e5ceef13dc452d8614e6cf4b1bd.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-8c0ae37df15e42b840566886bba81fc5.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-8c0ae37df15e42b840566886bba81fc5.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-b5ce0093b419c1ec856002ad1d6313e7.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-b5ce0093b419c1ec856002ad1d6313e7.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-bf4348ea02b103973f6c9581f1eae0cb.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-bf4348ea02b103973f6c9581f1eae0cb.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-cf8fe68ab5cc06d0d7d9c3a138e8522b.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-cf8fe68ab5cc06d0d7d9c3a138e8522b.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-f9d2a1ae817035ac51243e6ce3dba18a.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\application-f9d2a1ae817035ac51243e6ce3dba18a.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\fontawesome-webfont-635909f146e208b3509acdf3b154bf0d.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\fontawesome-webfont-6a4e273908b7e43d9e479d38b8ae5957.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\jqrwb\public\assets\fontawesome-webfont-a0fbd98b232e7e1ef9cdaad813b26eb3.woff" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/alert.rb" afterPath="$PROJECT_DIR$/app/models/alert.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/gmaps4rails.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/gmaps4rails.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
     </list>
     <ignored path="jqrwb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,7 +59,7 @@
       <file leaf-file-name="alert.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+            <state line="13" column="27" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,10 +68,10 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/alerts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+            <state line="10" column="30" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1370871374125" expanded="true" signature="63:437" placeholder="do ... end" />
-                <marker date="1370871374125" expanded="true" signature="1050:1087" placeholder="do ... end" />
+                <marker date="1370871932296" expanded="true" signature="63:411" placeholder="do ... end" />
+                <marker date="1370871932296" expanded="true" signature="1024:1061" placeholder="do ... end" />
               </folding>
             </state>
           </provider>
@@ -151,7 +128,7 @@
       <file leaf-file-name="mkmf.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://C:/jruby-1.7.4/lib/ruby/shared/mkmf.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="550" selection-end="550" vertical-scroll-proportion="0.028716216">
+            <state line="32" column="54" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.5743243">
               <folding />
             </state>
           </provider>
@@ -320,7 +297,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backup/jqrwb" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="52" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="477" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="470" />
@@ -682,6 +659,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Documents and Settings\Administrador\Dados de aplicativos\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -714,13 +692,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="746" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.67045456" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.67045456" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23744293" sideWeight="0.6217533" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23744293" sideWeight="0.6217533" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -779,7 +757,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -793,6 +771,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -830,10 +809,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/alerts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+        <state line="10" column="30" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1370871374125" expanded="true" signature="63:437" placeholder="do ... end" />
-            <marker date="1370871374125" expanded="true" signature="1050:1087" placeholder="do ... end" />
+            <marker date="1370871932296" expanded="true" signature="63:411" placeholder="do ... end" />
+            <marker date="1370871932296" expanded="true" signature="1024:1061" placeholder="do ... end" />
           </folding>
         </state>
       </provider>
@@ -864,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+        <state line="13" column="27" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -892,7 +871,7 @@
     </entry>
     <entry file="file://C:/jruby-1.7.4/lib/ruby/shared/mkmf.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="550" selection-end="550" vertical-scroll-proportion="0.028716216">
+        <state line="32" column="54" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.5743243">
           <folding />
         </state>
       </provider>

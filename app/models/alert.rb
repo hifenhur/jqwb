@@ -20,4 +20,8 @@ class Alert < ActiveRecord::Base
 	 }
 	end
 
+	def gmaps4rails_infowindow
+      "<h2>#{self.plaque}</h2>"
+    end
+
 end
