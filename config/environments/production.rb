@@ -1,5 +1,5 @@
 Jqrwb::Application.configure do
-  # Settings specified here will take precedence over those in config/application.rb
+  # configuracao do log
 
   # Code is not reloaded between requests
   config.cache_classes = true
@@ -61,7 +61,7 @@ Jqrwb::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Enable threaded mode
-  # config.threadsafe!
+  config.threadsafe!
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found)

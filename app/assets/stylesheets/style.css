@@ -24,3 +24,8 @@ button.btn {
     position: relative;
     top: -5px;
 }
+img.loading {
+    width: 119px;
+    margin: auto;
+    display: block;
+}

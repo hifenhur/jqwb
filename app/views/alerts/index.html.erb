@@ -1,10 +1,11 @@
 <h1>Alertas</h1>
 <%= search_form_for @search, url: alerts_path do |f| %>
     <div class="field">
-      <%= f.label :agent_nome_cont, "Nome do Usuario" %>
+      <%= f.label :agent_nome_cont, "Nome do Agente" %>
       <%= f.select :agent_nome_cont, @agentes %>
-      <%= f.label :monitor_name_cont, "Nome do Usuario" %>
+      <%= f.label :monitor_name_cont, "Nome do Monitor" %>
       <%= f.select :monitor_name_cont, @monitores %>
+      <%= f.text_field :dh_ins%>
     </div>
     <div class="actions"><%= f.submit "Pesquisar", class: 'btn' %></div>
 <% end %>
@@ -26,7 +27,11 @@
 
   <% @alerts.each do |alert| %>
       <tr>
-        <td><a data-target="#myModal" role="button" class="btn" data-toggle="modal" data-remote="alerts/map/<%= alert.id%>"><%= image_tag('target.png', alt: 'Ver no Mapa', title: 'Ver no Mapa' ) %></a></td>
+        <td>
+        <a id="file_attach" data-toggle="modal" href="alerts/map/<%= alert.id %>" data-target="#utility" class="btn">
+          <%= image_tag('target.png', alt: 'Ver no Mapa', title: 'Ver no Mapa' ) %>
+        </a>
+        </td>
         <td><%= l alert.dh_ins, format: :short if alert.dh_ins  %></td>
         <td><%= alert.infracao %></td>
         <td><%= alert.plaque %></td>
@@ -44,15 +49,4 @@
 
 <br />
 
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Mapa</h3>
-  </div>
-  <div class="modal-body">
-    <p>Carregando...</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-  </div>
-</div>
+<%= render 'usuarios/modal_body' %>

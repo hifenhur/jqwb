@@ -1,8 +1,22 @@
-<%= javascript_include_tag "application" %>
+<div id="map_container"></div>
 
-<%= gmaps("markers" => {"data" => @json},
-     "map_options" => { "zoom" => 1, "auto_adjust" => true, "center_latitude" => @alert.latitude, "center_longitude" => @alert.longitude}) %> 
-<%= yield :scripts %>
 <script type="text/javascript">
+	$('#map_container').html('<%= escape_javascript( gmaps({:last_map => false}) ) %>');
+
+
+	Gmaps.map = new Gmaps4RailsGoogle();
+
+	Gmaps.load_map = function() {
+	  Gmaps.map.map_options.zoom = 1;
+	  Gmaps.map.map_options.auto_adjust = true;
+	  Gmaps.map.map_options.center_latitude = <%= @alert.latitude%>;
+	  Gmaps.map.map_options.center_longitude = <%=  @alert.longitude %>;
+	  Gmaps.map.initialize();
+	  Gmaps.map.create_markers();
+	  Gmaps.map.adjustMapToBounds();
+	  Gmaps.map.addMarkers(<%= raw @json %>);
+	  Gmaps.map.callback();
+	};
 	Gmaps.loadMaps();
+
 </script>

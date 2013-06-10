@@ -12,6 +12,7 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
     <![endif]-->
     <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
 
   </head>
   <body>
@@ -34,8 +35,8 @@
       </div>
     </div>
     <%end%>
-
-    <div class="container-fluid">
+    <img class="loading" src="/assets/loading.gif">
+    <div class="container-fluid hide">
       <div class="row-fluid">
       	<% if current_user %>
         <div class="span2">
@@ -73,7 +74,6 @@
     <script type="text/javascript" src="//google-maps-utility-library-v3.googlecode.com/svn/tags/infobox/1.1.9/src/infobox_packed.js"></script>
     <script type="text/javascript" src="//google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.0.5/src/markerclusterer_packed.js"></script>
     
-    <%= javascript_include_tag "application" %>
        
     <%= yield :scripts %>
 

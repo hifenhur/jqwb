@@ -15,7 +15,7 @@ class Position < ActiveRecord::Base
 
   def gmaps4rails_marker_picture
 	 {
-	  "picture" => "/assets/agent.png",          # string,  mandatory
+	  "picture" => "../assets/agent.png",          # string,  mandatory
 	   "width" =>  45,          # integer, mandatory
 	   "height" => 45          # integer, mandatory
 	 }

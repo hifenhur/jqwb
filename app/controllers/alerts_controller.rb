@@ -10,7 +10,7 @@ class AlertsController < ApplicationController
     @monitores << ""
     @agentes << Agent.all
     @monitores << Munitor.where("type = 'M'")
-    @search = Alert.includes(:agent, :monitor, :infracao).search(params[:q])
+    @search = Alert.includes(:agent, :monitor, :infracao, :status).search(params[:q])
     @alerts = @search.result.paginate(page: params[:page], per_page: 10)
     
     respond_to do |format|

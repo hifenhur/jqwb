@@ -1,11 +1,24 @@
 <%if @json%>
-	<%= javascript_include_tag "application" %>
-
-	<%= gmaps("markers" => {"data" => @json},
-	     "map_options" => { "zoom" => 1, "auto_adjust" => true, "center_latitude" => @position.latitude, "center_longitude" => @position.longitude}) %> 
-	<%= yield :scripts %>
+	<div id="map_container"></div>
 	<script type="text/javascript">
+		$('#map_container').html('<%= escape_javascript( gmaps({:last_map => false}) ) %>');
+
+
+		Gmaps.map = new Gmaps4RailsGoogle();
+
+		Gmaps.load_map = function() {
+		  Gmaps.map.map_options.zoom = 1;
+		  Gmaps.map.map_options.auto_adjust = true;
+		  Gmaps.map.map_options.center_latitude = <%= @position.latitude%>;
+		  Gmaps.map.map_options.center_longitude = <%=  @position.longitude %>;
+		  Gmaps.map.initialize();
+		  Gmaps.map.create_markers();
+		  Gmaps.map.adjustMapToBounds();
+		  Gmaps.map.addMarkers(<%= raw @json %>);
+		  Gmaps.map.callback();
+		};
 		Gmaps.loadMaps();
+
 	</script>
 <%else%>
 	<h2>não existe dado de posição para esse usuário</h2>

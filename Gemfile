@@ -26,6 +26,10 @@ group :development do
 	gem 'bullet'
 end
 
+group :test do
+  gem 'rspec-rails'
+end
+
 
 gem 'jquery-rails'
 gem 'devise'
@@ -35,6 +39,8 @@ gem 'will_paginate'
 gem 'newrelic_rpm'
 gem 'ransack'
 gem 'cancan'
+gem 'le'
+
 
 
 # To use ActiveModel has_secure_password

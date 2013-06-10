@@ -10,7 +10,11 @@
 
 <% @usuarios.each do |usuario| %>
   <tr>
-    <td><a data-target="#myModal" role="button" class="btn" data-toggle="modal" data-remote="usuarios/map/<%=usuario.id%>">ultima localização</a></td>
+    <td>
+      <a id="file_attach" data-toggle="modal" href="usuarios/map/<%=usuario.id%>" data-target="#utility" class="btn">
+          <%= image_tag('target.png', alt: 'Ver no Mapa', title: 'Ver no Mapa' ) %>
+        </a>
+    </td>
     <td><%= usuario.matricula %></td>
     <td><%= usuario.name %></td>
   </tr>
@@ -18,15 +22,4 @@
 </table>
 <%= will_paginate @usuarios%>
 
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Mapa</h3>
-  </div>
-  <div class="modal-body">
-    <p>Carregando...</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-  </div>
-</div>
+<%= render 'modal_body' %>

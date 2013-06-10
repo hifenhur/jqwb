@@ -97,7 +97,7 @@ ActiveRecord::Schema.define(:version => 20130606180155) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "roles_users", :id => false, :force => true do |t|
+  create_table "roles_users", :force => true do |t|
     t.integer "role_id"
     t.integer "user_id"
   end
@@ -125,6 +125,10 @@ ActiveRecord::Schema.define(:version => 20130606180155) do
     t.integer  "serial_number", :limit => 8
     t.datetime "dt_ins"
     t.string   "status",        :limit => 10
+  end
+
+  create_table "type_alerts", :primary_key => "id_type_alert", :force => true do |t|
+    t.string "description", :limit => 20
   end
 
   create_table "type_band", :primary_key => "id_type_band", :force => true do |t|
