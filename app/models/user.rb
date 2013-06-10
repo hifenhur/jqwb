@@ -23,4 +23,5 @@ class User < ActiveRecord::Base
     self.roles.clear
   end
   
+  
 end

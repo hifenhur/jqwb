@@ -2,7 +2,7 @@ Jqrwb::Application.routes.draw do
   get "maps/show"
 
   get 'home/index'
-  root to: 'home#index'
+  root to: 'alerts#index'
   devise_for :users
   resources :alerts
   resources :usuarios

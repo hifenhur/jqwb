@@ -2,9 +2,9 @@
 <%= search_form_for @search, url: alerts_path do |f| %>
     <div class="field">
       <%= f.label :agent_nome_cont, "Nome do Agente" %>
-      <%= f.select :agent_nome_cont, @agentes %>
+      <%= f.select :agent_nome_cont, @agentes,  {:include_blank => true} %>
       <%= f.label :monitor_name_cont, "Nome do Monitor" %>
-      <%= f.select :monitor_name_cont, @monitores %>
+      <%= f.select :monitor_name_cont, @monitores, {:include_blank => true} %>
       
     </div>
     <div class="actions"><%= f.submit "Pesquisar", class: 'btn' %></div>
