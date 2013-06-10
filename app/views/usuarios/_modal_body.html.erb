@@ -27,5 +27,10 @@
                 return this;
             }
         );
-    });
+    });  
+
+  $('#utility').on('hidden', function () {
+      $('#utility_body').html('<p>Carregando</p><img class="loading" src="/assets/loading.gif">')
+  })
 </script>
+
