@@ -4,7 +4,7 @@
 # gem 'activerecord-jdbcpostgresql-adapter'
 
 development:
-  host: 200.98.128.101
+  host: localhost
   adapter: postgresql
   encoding: unicode
   database: qrcode
@@ -37,7 +37,7 @@ test:
   password:
 
 production:
-  host: 200.98.128.101
+  host: localhost
   adapter: postgresql
   encoding: unicode
   database: qrcode
