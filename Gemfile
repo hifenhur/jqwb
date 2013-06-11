@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
+platforms :ruby do
+	gem 'pg'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 platforms :jruby do
@@ -37,7 +41,6 @@ gem 'devise'
 gem "twitter-bootstrap-rails"
 gem 'gmaps4rails'
 gem 'will_paginate'
-gem 'newrelic_rpm'
 gem 'ransack'
 gem 'cancan'
 gem 'le'
