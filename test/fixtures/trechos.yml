@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  street: MyString
+  perimeter: MyString
+  side_left_start: 1
+  side_left_stop: 1
+  side_right_start: 1
+  side_right_stop: 1
+
+two:
+  street: MyString
+  perimeter: MyString
+  side_left_start: 1
+  side_left_stop: 1
+  side_right_start: 1
+  side_right_stop: 1

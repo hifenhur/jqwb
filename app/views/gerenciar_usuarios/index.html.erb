@@ -1,0 +1,25 @@
+<h1>Listing gerenciar_usuarios</h1>
+
+<table>
+  <tr>
+    <th>Index</th>
+    <th>Create</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @gerenciar_usuarios.each do |gerenciar_usuario| %>
+  <tr>
+    <td><%= gerenciar_usuario.index %></td>
+    <td><%= gerenciar_usuario.create %></td>
+    <td><%= link_to 'Show', gerenciar_usuario %></td>
+    <td><%= link_to 'Edit', edit_gerenciar_usuario_path(gerenciar_usuario) %></td>
+    <td><%= link_to 'Destroy', gerenciar_usuario, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Gerenciar usuario', new_gerenciar_usuario_path %>

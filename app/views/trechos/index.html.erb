@@ -1,0 +1,33 @@
+<h1>Listing trechos</h1>
+
+<table>
+  <tr>
+    <th>Street</th>
+    <th>Perimeter</th>
+    <th>Side left start</th>
+    <th>Side left stop</th>
+    <th>Side right start</th>
+    <th>Side right stop</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @trechos.each do |trecho| %>
+  <tr>
+    <td><%= trecho.street %></td>
+    <td><%= trecho.perimeter %></td>
+    <td><%= trecho.side_left_start %></td>
+    <td><%= trecho.side_left_stop %></td>
+    <td><%= trecho.side_right_start %></td>
+    <td><%= trecho.side_right_stop %></td>
+    <td><%= link_to 'Show', trecho %></td>
+    <td><%= link_to 'Edit', edit_trecho_path(trecho) %></td>
+    <td><%= link_to 'Destroy', trecho, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Trecho', new_trecho_path %>

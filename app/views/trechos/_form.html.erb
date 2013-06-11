@@ -1,0 +1,41 @@
+<%= form_for(@trecho) do |f| %>
+  <% if @trecho.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@trecho.errors.count, "error") %> prohibited this trecho from being saved:</h2>
+
+      <ul>
+      <% @trecho.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :street %><br />
+    <%= f.text_field :street %>
+  </div>
+  <div class="field">
+    <%= f.label :perimeter %><br />
+    <%= f.text_field :perimeter %>
+  </div>
+  <div class="field">
+    <%= f.label :side_left_start %><br />
+    <%= f.number_field :side_left_start %>
+  </div>
+  <div class="field">
+    <%= f.label :side_left_stop %><br />
+    <%= f.number_field :side_left_stop %>
+  </div>
+  <div class="field">
+    <%= f.label :side_right_start %><br />
+    <%= f.number_field :side_right_start %>
+  </div>
+  <div class="field">
+    <%= f.label :side_right_stop %><br />
+    <%= f.number_field :side_right_stop %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

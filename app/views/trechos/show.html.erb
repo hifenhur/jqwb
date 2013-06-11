@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Street:</b>
+  <%= @trecho.street %>
+</p>
+
+<p>
+  <b>Perimeter:</b>
+  <%= @trecho.perimeter %>
+</p>
+
+<p>
+  <b>Side left start:</b>
+  <%= @trecho.side_left_start %>
+</p>
+
+<p>
+  <b>Side left stop:</b>
+  <%= @trecho.side_left_stop %>
+</p>
+
+<p>
+  <b>Side right start:</b>
+  <%= @trecho.side_right_start %>
+</p>
+
+<p>
+  <b>Side right stop:</b>
+  <%= @trecho.side_right_stop %>
+</p>
+
+
+<%= link_to 'Edit', edit_trecho_path(@trecho) %> |
+<%= link_to 'Back', trechos_path %>
