@@ -12,30 +12,30 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :street %><br />
+    <%= f.label :street, "Rua" %><br />
     <%= f.text_field :street %>
   </div>
   <div class="field">
-    <%= f.label :perimeter %><br />
+    <%= f.label :perimeter, "Perimetro" %><br />
     <%= f.text_field :perimeter %>
   </div>
   <div class="field">
-    <%= f.label :side_left_start %><br />
+    <%= f.label :side_left_start, "Inicio lado Esquerdo" %><br />
     <%= f.number_field :side_left_start %>
   </div>
   <div class="field">
-    <%= f.label :side_left_stop %><br />
+    <%= f.label :side_left_stop, "Fim lado Esquerdo" %><br />
     <%= f.number_field :side_left_stop %>
   </div>
   <div class="field">
-    <%= f.label :side_right_start %><br />
+    <%= f.label :side_right_start, "Inicio lado Direito" %><br />
     <%= f.number_field :side_right_start %>
   </div>
   <div class="field">
-    <%= f.label :side_right_stop %><br />
+    <%= f.label :side_right_stop, "Fim lado Direito" %><br />
     <%= f.number_field :side_right_stop %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <input class="btn" type="submit" value="Criar Trecho"/>
   </div>
 <% end %>

@@ -7,6 +7,7 @@ Jqrwb::Application.routes.draw do
   resources :alerts
   resources :usuarios
   resources :qrcodes
+  resources :trechos
   match 'estoque' => 'estoques#index'
 
   match 'alerts/map/:id' => 'alerts#map'

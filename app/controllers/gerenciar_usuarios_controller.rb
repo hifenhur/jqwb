@@ -1,6 +1,7 @@
 class GerenciarUsuariosController < ApplicationController
   # GET /gerenciar_usuarios
   # GET /gerenciar_usuarios.json
+  authorize_resource
   def index
     @gerenciar_usuarios = GerenciarUsuario.all
 

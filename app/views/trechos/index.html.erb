@@ -1,13 +1,13 @@
-<h1>Listing trechos</h1>
-
-<table>
+<h1>Trechos</h1>
+<%= link_to 'Novo Trecho', new_trecho_path, class: 'btn', style: 'margin: 10px 0' %>
+<table class="table table-hover table-bordered">
   <tr>
-    <th>Street</th>
-    <th>Perimeter</th>
-    <th>Side left start</th>
-    <th>Side left stop</th>
-    <th>Side right start</th>
-    <th>Side right stop</th>
+    <th>Rua</th>
+    <th>Perimetro</th>
+    <th>Inicio lado Esquerdo</th>
+    <th>Fim lado Esquerdo</th>
+    <th>Inicio lado Direito</th>
+    <th>Fim lado Direito</th>
     <th></th>
     <th></th>
     <th></th>
@@ -21,13 +21,12 @@
     <td><%= trecho.side_left_stop %></td>
     <td><%= trecho.side_right_start %></td>
     <td><%= trecho.side_right_stop %></td>
-    <td><%= link_to 'Show', trecho %></td>
-    <td><%= link_to 'Edit', edit_trecho_path(trecho) %></td>
-    <td><%= link_to 'Destroy', trecho, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Detalhar', trecho %></td>
+    <td><%= link_to 'Editar', edit_trecho_path(trecho) %></td>
+    <td><%= link_to 'Deletar', trecho, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
+<%= will_paginate @trechos %>
 
 <br />
-
-<%= link_to 'New Trecho', new_trecho_path %>
