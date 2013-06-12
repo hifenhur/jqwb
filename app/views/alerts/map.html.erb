@@ -1,8 +1,8 @@
-<script type="text/javascript">
+<div id="map_container"></div>
+	<script type="text/javascript">
+		$('#map_container').html('<%= escape_javascript( gmaps({:last_map => false}) ) %>');
 
-	$('#map_container').html('<%= escape_javascript( gmaps({:last_map => false}) ) %>');
 
-	$(document).ready(function(){
 		Gmaps.map = new Gmaps4RailsGoogle();
 
 		Gmaps.load_map = function() {
@@ -12,13 +12,10 @@
 		  Gmaps.map.map_options.center_longitude = <%=  @alert.longitude %>;
 		  Gmaps.map.initialize();
 		  Gmaps.map.create_markers();
-		  Gmaps.map.addMarkers(<%= raw @json %>);
 		  Gmaps.map.adjustMapToBounds();
+		  Gmaps.map.addMarkers(<%= raw @json %>);
 		  Gmaps.map.callback();
 		};
-		
 		Gmaps.loadMaps();
-
-	});	
 
 </script>
