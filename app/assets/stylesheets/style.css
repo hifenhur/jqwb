@@ -29,4 +29,4 @@ img.loading {
     margin: auto;
     display: block;
 }
-#map_container img{max-width: none;}
+.map_container img, #map_container img{max-width: none;}

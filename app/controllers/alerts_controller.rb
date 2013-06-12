@@ -12,17 +12,6 @@ class AlertsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @alerts }
-      format.pdf do
-          @example_text = "some text"
-          render :pdf => "file_name",
-                 :template => 'alerts/index.pdf.erb',
-                 
-                 :footer => {
-                    :center => "Center",
-                    :left => "Left",
-                    :right => "Right"
-                 }
-      end
     end
   end
 
