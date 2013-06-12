@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f326d8b-0187-41b4-9422-005d487ea159" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/alert.rb" afterPath="$PROJECT_DIR$/app/models/alert.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/alerts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/alerts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/alerts/map.html.erb" afterPath="$PROJECT_DIR$/app/views/alerts/map.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/usuario.rb" afterPath="$PROJECT_DIR$/app/models/usuario.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/alerts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/alerts/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jqrwb.iml" afterPath="$PROJECT_DIR$/.idea/jqrwb.iml" />
     </list>
     <ignored path="jqrwb.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370871700406" ignored="false" />
+    <file path="/Dummy.txt" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1371063503187" ignored="false" />
     <file path="/warble.rb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370466147988" ignored="false" />
     <file path="/Ruby Console" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370616554953" ignored="false" />
     <file path="/tipo_infracao.rb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370525249281" ignored="false" />
     <file path="/alert.rb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370616400921" ignored="false" />
-    <file path="/index.html.erb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370877656187" ignored="false" />
+    <file path="/index.html.erb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1371063453359" ignored="false" />
     <file path="/temp.rb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370610061890" ignored="false" />
     <file path="/alerts_controller.rb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370616610578" ignored="false" />
     <file path="/Gemfile" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370637423531" ignored="false" />
@@ -36,6 +31,8 @@
     <file path="/position.rb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370627367953" ignored="false" />
     <file path="/environment.rb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370631301906" ignored="false" />
     <file path="/alert_spec.rb" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1370636792593" ignored="false" />
+    <file path="/temp.yml" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1371063511859" ignored="false" />
+    <file path="$PROJECT_DIR$/config/locales/devise.pt-BR.yml" changelist="8f326d8b-0187-41b4-9422-005d487ea159" time="1371063511859" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
       <file leaf-file-name="alert.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="27" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+            <state line="19" column="27" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,10 +69,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/alerts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="50" selection-start="311" selection-end="311" vertical-scroll-proportion="0.3197492">
-              <folding>
-                <marker date="1370877528937" expanded="true" signature="1024:1061" placeholder="do ... end" />
-              </folding>
+            <state line="10" column="24" selection-start="578" selection-end="578" vertical-scroll-proportion="0.27031803">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,7 +78,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="68" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+            <state line="10" column="68" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,10 +87,10 @@
       <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="2" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.0">
+            <state line="63" column="2" selection-start="2316" selection-end="2316" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1370635239796" expanded="true" signature="1021:2314" placeholder="#..." />
-                <marker date="1370635239796" expanded="true" signature="2339:2481" placeholder="#..." />
+                <marker date="1370952391234" expanded="true" signature="1020:2313" placeholder="#..." />
+                <marker date="1370952391234" expanded="true" signature="2338:2480" placeholder="#..." />
               </folding>
             </state>
           </provider>
@@ -113,7 +108,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="40" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
+            <state line="45" column="40" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,6 +218,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,21 +325,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="52" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="52" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="53" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="53" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backup/jqrwb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="52" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="477" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="470" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="477" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="50" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="46" />
     <property name="Database.TableEditor.Splitter" value="0.9" />
@@ -356,11 +351,12 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
+    <property name="org.jetbrains.plugins.ruby.i18n.inspection.quickfixes.I18nCreatePropertyDialog" value="devise.pt-BR.yml" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="IRB console.Rails console: jqrwb">
     <configuration default="false" name="IRB console" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
@@ -425,6 +421,24 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="true" type="CommandRunConfigurationType" factoryName="Gem Command">
+      <module name="" />
+      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -443,24 +457,6 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CommandRunConfigurationType" factoryName="Gem Command">
-      <module name="" />
-      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="" />
-      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
-      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
-      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
@@ -670,13 +666,13 @@
       <method />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: jqrwb" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: jqrwb" />
-      <item index="4" class="java.lang.String" itemvalue="IRB console.IRB console" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="6" class="java.lang.String" itemvalue="IRB console.Rails console: jqrwb" />
+      <item index="0" class="java.lang.String" itemvalue="IRB console.IRB console" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: jqrwb" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Production: jqrwb" />
+      <item index="6" class="java.lang.String" itemvalue="Rails.Development: jqrwb" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -743,8 +739,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.6003236" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.67045456" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23744293" sideWeight="0.6003236" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39967638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2412481" sideWeight="0.6003236" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3775351" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -856,10 +852,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="2" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.0">
+        <state line="63" column="2" selection-start="2316" selection-end="2316" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1370635239796" expanded="true" signature="1021:2314" placeholder="#..." />
-            <marker date="1370635239796" expanded="true" signature="2339:2481" placeholder="#..." />
+            <marker date="1370952391234" expanded="true" signature="1020:2313" placeholder="#..." />
+            <marker date="1370952391234" expanded="true" signature="2338:2480" placeholder="#..." />
           </folding>
         </state>
       </provider>
@@ -873,14 +869,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="68" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+        <state line="10" column="68" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+        <state line="19" column="27" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -894,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="40" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
+        <state line="45" column="40" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -915,17 +911,13 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="493" column="8" selection-start="19010" selection-end="19010" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="493" column="8" selection-start="19010" selection-end="19010" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/alerts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="311" selection-end="311" vertical-scroll-proportion="0.3197492">
-          <folding>
-            <marker date="1370877528937" expanded="true" signature="1024:1061" placeholder="do ... end" />
-          </folding>
+        <state line="10" column="24" selection-start="578" selection-end="578" vertical-scroll-proportion="0.27031803">
+          <folding />
         </state>
       </provider>
     </entry>

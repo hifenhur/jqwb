@@ -1,39 +1,8 @@
-<h1>Estoque</h1>
-<% options = []%>
-<% options << [''] %>
-<% options << ['Todos',''] %>
-<% options << [''] %>
-<% @usuarios.collect{|u| options << [u.name, u.id]}%>
+<h1>Estoque dos Qrcodes</h1><br>
 
-<%= search_form_for @search, url: estoque_path do |f| %>
-    <div class="field">
-      <%= f.label :usuario_name_cont, "Nome do Usuario" %>
-      <%= f.text_field :usuario_name_cont %>
-
-    </div>
-    <div class="actions"><%= f.submit "Pesquisar", class: 'btn' %></div>
-<% end %>
-
-
-
-<table class="table table-hover table-bordered">
-  <tr>
-    <th><%= sort_link(@search, :qrcode, "Cartão") %></th>
-    <th><%= sort_link(@search, :dh_ins, "Inserção") %></th>
-    <th><%= sort_link(@search, :usuario_name, "Usuario") %></th>
-  </tr>
-
-  <% @logs.each do |log| %>
-  <tr>
-    <td><%= log.qrcode %></td>
-    <td><%= l log.dh_ins, format: :short if log.dh_ins  %></td>
-    <td><%= log.usuario %></td>
-  </tr>
-<% end %>  
-</table>
-
-<%= will_paginate @logs %>
-
-<br />
-
-
+<% @qrcodes_status.each do |status|%>
+  <h2>
+  <%= status.description %>
+  </h2>
+  <h4 class="qrcount"><%= status.qrcodes.count %></h4>
+<%end%>

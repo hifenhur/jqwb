@@ -30,3 +30,7 @@ img.loading {
     display: block;
 }
 .map_container img, #map_container img{max-width: none;}
+
+.qrcount {
+    color: gray;
+}

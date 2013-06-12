@@ -38,6 +38,7 @@ end
 
 
 gem 'jquery-rails'
+gem 'bootstrap-datepicker-rails'
 gem 'devise'
 gem "twitter-bootstrap-rails"
 gem 'gmaps4rails'
@@ -45,7 +46,7 @@ gem 'will_paginate'
 gem 'ransack'
 gem 'cancan'
 gem 'le'
-gem 'pdfkit'
+
 
 
 

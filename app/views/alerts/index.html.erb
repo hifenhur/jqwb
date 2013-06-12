@@ -1,13 +1,31 @@
 <h1>Alertas</h1>
 <%= search_form_for @search, url: alerts_path do |f| %>
     <div class="field">
-      <%= f.label :agent_nome_cont, "Nome do Agente" %>
-      <%= f.select :agent_nome_cont, @agentes,  {:include_blank => true} %>
-      <%= f.label :monitor_name_cont, "Nome do Monitor" %>
-      <%= f.select :monitor_name_cont, @monitores, {:include_blank => true} %>
-      
+      <%= field_set_tag do %>
+        <%= f.label :agent_nome_cont, "Nome do Agente" %>
+        <%= f.select :agent_nome_cont, @agentes,  {:include_blank => true} %>
+        <%= f.label :monitor_name_cont, "Nome do Monitor" %>
+        <%= f.select :monitor_name_cont, @monitores, {:include_blank => true} %>
+        <%= f.label :status_description_cont, "Status" %>
+        <%= f.select :status_description_cont, AlertType.all, {:include_blank => true} %>
+        <%= f.label :plaque_cont, "Placa" %>
+        <%= f.text_field :plaque_cont %>
+      <%end%>
+      <%= field_set_tag 'Data do Alerta' do %>
+        <%= f.label :dh_ins_gteq, "Depois de" %>
+        <%= f.text_field :dh_ins_gteq, class: 'datepicker' %>
+        <%= f.label :dh_ins_lteq, "Antes de" %>
+        <%= f.text_field :dh_ins_lteq, class: 'datepicker' %>
+      <%end%>
+      <%= field_set_tag 'Data do Atendimento' do %>
+        <%= f.label :dh_rx_gteq, "Depois de" %>
+        <%= f.text_field :dh_rx_gteq, class: 'datepicker' %>
+        <%= f.label :dh_rx_lteq, "Antes de" %>
+        <%= f.text_field :dh_rx_lteq, class: 'datepicker' %>
+      <%end%>      
+      <div class="actions"><%= f.submit "Pesquisar", class: 'btn' %></div>
     </div>
-    <div class="actions"><%= f.submit "Pesquisar", class: 'btn' %></div>
+    
 <% end %>
 
 <table class="table table-hover table-bordered">
@@ -50,3 +68,13 @@
 <br />
 
 <%= render 'usuarios/modal_body' %>
+<script type="text/javascript">
+  $('.datepicker').datepicker()
+</script>
+<style type="text/css">
+fieldset {
+    display: inline;
+    margin: 10px;
+    width: auto;
+}
+</style>
