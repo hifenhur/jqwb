@@ -45,6 +45,7 @@ gem 'will_paginate'
 gem 'ransack'
 gem 'cancan'
 gem 'le'
+gem 'axlsx_rails'
 
 
 

@@ -20,14 +20,17 @@
 		Gmaps.loadMaps();
 
 		google.maps.event.addListener(Gmaps.map.map, 'idle', function(){
-		    finDoBug()
-		    
+		    refreshMap()
 		})
 
-		function finDoBug(){
+		function refreshMap(){
 			google.maps.event.trigger(Gmaps.map.map, "resize");
-			Gmaps.map.adjustMapToBounds();
 		}
+
+		google.maps.event.addListenerOnce(Gmaps.map.map, 'idle', function(){
+		    Gmaps.map.adjustMapToBounds();
+		})
+		
 	</script>
 <%else%>
 	<h2>não existe dado de posição para esse usuário</h2>

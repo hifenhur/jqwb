@@ -12,6 +12,9 @@ class AlertsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @alerts }
+      format.xlsx {
+            send_data Alert.to_xlsx.to_stream.read, :filename => 'alerts.xlsx', :type => "application/vnd.openxmlformates-officedocument.spreadsheetml.sheet"
+        }
     end
   end
 
