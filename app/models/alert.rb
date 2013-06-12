@@ -5,11 +5,9 @@ class Alert < ActiveRecord::Base
 	#configura saida json para googlemaps
 	acts_as_gmappable
 
-	#pode ser exportado com csv
-	
-
 	#nome da tabela
 	self.table_name = "alert"
+
 	#associacoes
   	belongs_to :status, class_name: 'AlertType', foreign_key: 'id_type_alert'
 	belongs_to :monitor, class_name: "Munitor",foreign_key: 'id_monitor'
