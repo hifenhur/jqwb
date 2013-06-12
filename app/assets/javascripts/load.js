@@ -3,4 +3,5 @@ $('html').ready(function(){
     $('.container-fluid').show();  
 
     $('#map_container').on('hidden').html('');
+    
 });

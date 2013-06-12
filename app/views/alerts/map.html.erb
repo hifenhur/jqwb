@@ -1,6 +1,7 @@
-<div id="map_container"></div>
+<div id="map_container">
+</div>
 	<script type="text/javascript">
-		$('#map_container').html('<%= escape_javascript( gmaps({:last_map => false}) ) %>');
+		$('#map_container').html('<div class="map_container">   <div id="map" class="gmaps4rails_map"></div></div>');
 
 
 		Gmaps.map = new Gmaps4RailsGoogle();
@@ -18,4 +19,18 @@
 		};
 		Gmaps.loadMaps();
 
-</script>
+		google.maps.event.addListener(Gmaps.map.map, 'idle', function(){
+		    finDoBug()
+		    
+		})
+
+		function finDoBug(){
+			google.maps.event.trigger(map, 'resize');
+			Gmaps.map.adjustMapToBounds();
+		}
+			
+	</script>
+
+
+
+

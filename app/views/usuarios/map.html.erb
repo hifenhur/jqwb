@@ -19,6 +19,15 @@
 		};
 		Gmaps.loadMaps();
 
+		google.maps.event.addListener(Gmaps.map.map, 'idle', function(){
+		    finDoBug()
+		    
+		})
+
+		function finDoBug(){
+			google.maps.event.trigger(map, 'resize');
+			Gmaps.map.adjustMapToBounds();
+		}
 	</script>
 <%else%>
 	<h2>não existe dado de posição para esse usuário</h2>
