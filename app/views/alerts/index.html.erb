@@ -47,8 +47,14 @@
     </div>
     
 <% end %>
+<div class="btn-group pull-right" style="margin: 10px 0">
+      <% if @current_url.include?('alert') %>
+        <%= link_to 'Baixar tabela no Excel', @current_url, class: 'btn btn-success' %>  
+      <%else%>
+        <%= link_to 'Baixar tabela no Excel', '/alerts.xls', class: 'btn btn-success' %>  
+      <% end %>
+</div>
 
-<%= link_to 'Excel', @current_url %>
 <table class="table table-hover table-bordered">
   <tr>
     <th>Mapa</th>
