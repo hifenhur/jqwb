@@ -8,10 +8,13 @@ class AlertsController < ApplicationController
     @monitores = Munitor.where("type = 'M'")
     @search = Alert.includes(:agent, :monitor, :infracao, :status).search(params[:q])
     @alerts = @search.result.paginate(page: params[:page], per_page: 10)
+    @xls = @search.result
+    @current_url = request.url.to_s.gsub(/alerts/, 'alerts.xls')
     
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @alerts }
+      format.xls 
     end
   end
 

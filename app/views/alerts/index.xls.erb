@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Styles>
+    <Style ss:ID="header">
+     <Interior ss:Color="#800411" ss:Pattern="Solid"/>
+     <ss:Font ss:Bold="1" ss:Color="#FFFFFF"/>
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Sheet1">
+    <Table>
+      <Row>
+        <Cell ss:StyleID="header" ><Data ss:Type="String">Data do Alerta</Data></Cell>
+        <Cell ss:StyleID="header" ><Data ss:Type="String">Tipo de Infração</Data></Cell>
+        <Cell ss:StyleID="header" ><Data ss:Type="String">Placa</Data></Cell>
+        <Cell ss:StyleID="header" ><Data ss:Type="String">Observação</Data></Cell>
+        <Cell ss:StyleID="header" ><Data ss:Type="String">Monitor</Data></Cell>
+        <Cell ss:StyleID="header" ><Data ss:Type="String">Agente</Data></Cell>
+        <Cell ss:StyleID="header" ><Data ss:Type="String">Data de Atendimento</Data></Cell>
+        <Cell ss:StyleID="header" ><Data ss:Type="String">Status</Data></Cell>
+      </Row>
+    <% @xls.each do |alert| %>
+      <Row>
+        <Cell><Data ss:Type="String"><%= alert.dh_ins %></Data></Cell>
+        <Cell><Data ss:Type="String"><%= alert.infracao %></Data></Cell>
+        <Cell><Data ss:Type="String"><%= alert.plaque %></Data></Cell>
+        <Cell><Data ss:Type="String"><%= alert.description %></Data></Cell>
+        <Cell><Data ss:Type="String"><%= alert.monitor %></Data></Cell>
+        <Cell><Data ss:Type="String"><%= alert.agent %></Data></Cell>
+        <Cell><Data ss:Type="String"><%= alert.dh_rx %></Data></Cell>
+        <Cell><Data ss:Type="String"><%= alert.status %></Data></Cell>
+      </Row>
+    <% end %>
+    </Table>
+  </Worksheet>
+</Workbook>
