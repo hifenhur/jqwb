@@ -1,0 +1,21 @@
+<h1>Listing gerenciar_logins</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @gerenciar_logins.each do |gerenciar_login| %>
+  <tr>
+    <td><%= link_to 'Show', gerenciar_login %></td>
+    <td><%= link_to 'Edit', edit_gerenciar_login_path(gerenciar_login) %></td>
+    <td><%= link_to 'Destroy', gerenciar_login, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Gerenciar login', new_gerenciar_login_path %>

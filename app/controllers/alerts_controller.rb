@@ -8,7 +8,11 @@ class AlertsController < ApplicationController
     @monitores = Munitor.where("type = 'M'")
     @search = Alert.includes(:agent, :monitor, :infracao, :status).search(params[:q])
     @alerts = @search.result.paginate(page: params[:page], per_page: 10)
+
+    #array de alertas que será impresso no formato xls
     @xls = @search.result
+
+    #path atual para imprimir os alertas de acordo com a pesquisa
     @current_url = request.url.to_s.gsub(/alerts/, 'alerts.xls')
     
     respond_to do |format|

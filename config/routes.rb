@@ -3,12 +3,20 @@ Jqrwb::Application.routes.draw do
 
   get 'home/index'
   root to: 'alerts#index'
+  
   devise_for :users
+  scope "/admin" do
+    resources :users
+  end
+
+
   resources :alerts
   resources :usuarios
   resources :qrcodes
   resources :trechos
+  resources :gerenciar_logins
   match 'estoque' => 'estoques#index'
+
 
   match 'alerts/map/:id' => 'alerts#map'
   match 'usuarios/map/:id' => 'usuarios#map'

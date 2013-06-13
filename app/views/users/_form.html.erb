@@ -1,0 +1,17 @@
+<%= form_for(@gerenciar_login) do |f| %>
+  <% if @gerenciar_login.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@gerenciar_login.errors.count, "error") %> prohibited this gerenciar_login from being saved:</h2>
+
+      <ul>
+      <% @gerenciar_login.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

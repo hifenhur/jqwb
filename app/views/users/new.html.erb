@@ -1,0 +1,42 @@
+
+<h2>Criar novo Usuario</h2>
+
+<% if @user.errors.any? %>
+  <div id="error_explanation">
+    <div class="alert alert-error">
+      The form contains <%= pluralize(@user.errors.count, "error") %>.
+    </div>
+    <ul>
+    <% @user.errors.full_messages.each do |msg| %>
+      <li>* <%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<%= form_for(@user) do |f| %>
+  
+
+  <div><label for="user_login">Login</label><br>
+  <input type="text" size="30" name="user[login]" id="user_login" autofocus="autofocus"></div>
+
+  <div><label for="user_email">Email</label><br>
+  <input type="email" value="" size="30" name="user[email]" id="user_email"></div>
+
+  <div><label for="user_password">Password</label><br>
+  <input type="password" size="30" name="user[password]" id="user_password"></div>
+
+  <div><label for="user_password_confirmation">Password confirmation</label><br>
+  <input type="password" size="30" name="user[password_confirmation]" id="user_password_confirmation"></div>
+
+  <div><label for="regra">Regra</label><br>
+  <%= select_tag "regra", options_from_collection_for_select(@roles, "id", "name") %>
+
+  <div><input type="submit" value="Sign up" name="commit"></div>
+</form>
+  <a href="/users/sign_in">Sign in</a><br>
+
+
+<a href="/users/password/new">Forgot your password?</a><br>
+
+<%end%>
